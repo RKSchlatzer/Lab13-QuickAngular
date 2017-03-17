@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="redditApp">
+
+<head>
+    <meta charset="utf-8">
+    <title>Angular Directives aka Reddit Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body ng-controller="mainCtrl">
+    <!-- Top-Line Nav Bar -->
+
+    <title-bar>test</title-bar>    <!-- Banner Image, full span -->
+
+    <body-content class="box" id="posts"></body-content>    <!--Individual Posts - Vote Count, Image, Title, Comments line -->
+
+    <side-nav class="box" id="sidenav">Side Nav Is Not Working</side-nav>    <!--Side Nav Div-->
+
+    <!-- JS goes below here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="scripts.js" type="text/javascript"></script>
+</body>
+
+</html>

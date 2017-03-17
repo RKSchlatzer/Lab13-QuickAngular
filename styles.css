@@ -1,0 +1,34 @@
+body {
+    background-color: white;
+}
+
+img {
+    height: 150px;
+    width: 100%;
+}
+
+#posts {
+    width: 80%;
+    float: left;
+}
+
+#bodyContent {
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+#bodyContent.p {
+    padding: 20px;
+}
+
+#snoo {
+    max-height: 70px;
+    max-width: 70px;
+    display: inline;
+    border: 1px grey solid;
+}
+
+#sidenav {
+    width: 20%;
+    float: left;
+}
