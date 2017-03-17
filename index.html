@@ -10,11 +10,11 @@
 <body ng-controller="mainCtrl">
     <!-- Top-Line Nav Bar -->
 
-    <title-bar>test</title-bar>    <!-- Banner Image, full span -->
+    <title-bar id="titleContent">test</title-bar>    <!-- Banner Image, full span -->
 
-    <body-content class="box" id="posts"></body-content>    <!--Individual Posts - Vote Count, Image, Title, Comments line -->
+    <div id="wrapper"><body-content id="posts"></body-content></div>    <!--Individual Posts - Vote Count, Image, Title, Comments line -->
 
-    <side-nav class="box" id="sidenav">Side Nav Is Not Working</side-nav>    <!--Side Nav Div-->
+    <side-nav id="sidenav">Side Nav Is Not Working</side-nav>    <!--Side Nav Div-->
 
     <!-- JS goes below here -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>

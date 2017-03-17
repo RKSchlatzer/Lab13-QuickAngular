@@ -1,6 +1,9 @@
-<div>
-  <div id="bodyContent" ng-repeat="content in mainContent">
-    <h4 id="title"><img id="snoo" src="Images\snoo.png" alt="Snoo" align = "left">{{content.title}}</h4>
-    <p id="content">{{content.description}}</p>
+<div ng-repeat="content in mainContent">
+  <div id="imagebox"><img id="snoo" ng-src="{{content.image}}" alt="snoo">
   </div>
+    <div id="bodyContent">
+      <a href=""><h4 id="title">{{content.title}}</h4></a>
+      <p id="content">{{content.description}}</p>
+      <br />
+    </div>
 </div>
